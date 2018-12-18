@@ -64,6 +64,15 @@
 			<artifactId>kotlin-stdlib-jdk8</artifactId>
 		</dependency>
 
+		<!--google 数据库-->
+		<dependency>
+			<groupId>com.google.cloud</groupId>
+			<artifactId>google-cloud-datastore</artifactId>
+			<version>1.55.0</version>
+		</dependency>
+
+
+
 	</dependencies>
 
 	<build>

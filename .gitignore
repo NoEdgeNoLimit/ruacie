@@ -1,25 +1,21 @@
-/target/
-!.mvn/wrapper/maven-wrapper.jar
-
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-
-### IntelliJ IDEA ###
-.idea
-*.iws
+hotspot.log
 *.iml
 *.ipr
-
-### NetBeans ###
-/nbproject/private/
-/build/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
+*.iws
+.gradle/
+build/
+target/
+classes/
+/var
+pom.xml.versionsBackup
+test-output/
+/atlassian-ide-plugin.xml
+.idea
+.DS_Store
+.classpath
+.settings
+.project
+temp-testng-customsuite.xml
+test-output
+.externalToolBuilders
+*~

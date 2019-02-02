@@ -36,6 +36,9 @@ public class HelloWorldController {
     @GetMapping("/")
     public String homePage(Model model, HttpServletRequest request, HttpServletResponse response) throws IOException {
         model.addAttribute("name", name);
+
+
+        request.getContextPath();
         new ArrayList<>();
         return "index";
     }

@@ -6,7 +6,6 @@ import org.junit.Test;
 public class QuickstartSample {
     @Test
     public void testData(){
-/*
         // Instantiates a client
         Datastore datastore = DatastoreOptions.getDefaultInstance().getService();
 
@@ -33,7 +32,6 @@ public class QuickstartSample {
         Entity retrieved = datastore.get(taskKey);
 
         System.out.printf("Retrieved %s: %s%n", taskKey.getName(), retrieved.getString("description"));
-*/
 
     }
 }

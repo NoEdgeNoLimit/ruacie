@@ -1,0 +1,8 @@
+indexes:
+
+- kind: Task
+  ancestor: no
+  properties:
+  - name: use_status
+  - name: update_time
+    direction: desc

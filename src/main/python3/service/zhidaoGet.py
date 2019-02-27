@@ -76,7 +76,7 @@ def translate_a(str):
     #     'dt':'t',
     #     'q':qajson
     # }
-
+    print(url)
     json_str = HttpRequestUtil.http_get_json(url)
 
     entext =[]
@@ -104,6 +104,9 @@ def cut_text(text,lenth):
 
 if __name__ == "__main__":
     # main()
-    qajson = get_json_by_url_id(989325443415030459)
-    json_cut_text(qajson)
+    for num in range(1,2):
+        qajson = get_json_by_url_id(989325443415030459)
+        json_cut_text(qajson)
+
     #translate_a(qajson)
+
